@@ -15,6 +15,6 @@ class DashboardController extends AbstractController
 {
     public function __invoke(Request $request): Response
     {
-        return $this->render('dashboard');
+        return $this->render('@KortwotzeFeedsPlugin/admin/dashboard.html.twig');
     }
 }
