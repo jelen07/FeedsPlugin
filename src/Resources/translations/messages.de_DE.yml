@@ -1,0 +1,6 @@
+kortwotze:
+  feeds_plugin:
+    general:
+      title: "Exporte"
+    menu:
+      title: "Exporte"
