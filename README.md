@@ -10,9 +10,43 @@
 
 ## Installation
 
-1. Run `composer create-project sylius/plugin-skeleton ProjectName`.
+1. Add 
+```json
+"repositories": [
+   {
+       "url": "git@github.com:kortwotze/FeedsPlugin.git",
+       "type": "vcs"
+   } 
+]
+```
+to your composer.json
 
-2. From the plugin skeleton root directory, run the following commands:
+2. Run `composer require kortwotze/feeds-plugin`.
+
+3. Add bundle to your `bundles.php`:
+```php
+// ...
+    Kortwotze\FeedsPlugin\KortwotzeFeedsPlugin::class => ['all' => true],
+```
+
+4. Add routing to your application
+```yaml
+kortwotze_feeds_plugin:
+  resource: "@KortwotzeFeedsPlugin/Resources/config/routing.xml"
+```
+
+5. Add config and services to your application
+```yaml
+imports:
+  ###> Feeds plugin
+  - { resource: "@KortwotzeFeedsPlugin/Resources/config/config.xml" }
+  - { resource: "@KortwotzeFeedsPlugin/Resources/config/services.xml" }
+```
+
+## Test setup
+
+
+1. Install test application: From the plugin skeleton root directory, run the following commands:
 
     ```bash
     $ (cd tests/Application && yarn install)
