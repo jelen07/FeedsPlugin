@@ -3,4 +3,4 @@ sylius_resource:
     kortwotze.feed:
       classes:
         model: 'Kortwotze\FeedsPlugin\Entity\Feed'
-        interfae: 'Kortwotze\FeedsPlugin\Entity\FeedInterface'
+        interface: 'Kortwotze\FeedsPlugin\Entity\FeedInterface'

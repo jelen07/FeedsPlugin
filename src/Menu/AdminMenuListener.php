@@ -22,7 +22,7 @@ final class AdminMenuListener
 
         if ($marketingMenu instanceof ItemInterface) {
             $marketingMenu
-                ->addChild('feeds', ['route' => 'kortwotze_feeds_plugin_admin_dashboard'])
+                ->addChild('feeds', ['route' => 'kortwotze_admin_feed_index'])
                 ->setLabel('kortwotze.feeds_plugin.menu.title')
                 ->setLabelAttribute('icon', 'rss');
         }
