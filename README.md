@@ -43,6 +43,8 @@ imports:
   - { resource: "@KortwotzeFeedsPlugin/Resources/config/services.xml" }
 ```
 
+6. Copy migrations from `tests/Applocation/migrations` to your application and run migrations.
+
 ## Test setup
 
 
