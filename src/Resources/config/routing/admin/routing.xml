@@ -4,8 +4,7 @@
         xsi:schemaLocation="http://symfony.com/schema/routing
         https://symfony.com/schema/routing/routing-1.0.xsd">
 
-    <route id="kortwotze_feeds_plugin_admin_dashboard"
-           path="admin/feeds/dashboard"
-           controller="Kortwotze\FeedsPlugin\Controller\Admin\DashboardController">
+    <route id="kortwotze_feeds_plugin_admin_dashboard" path="admin/feeds/dashboard">
+        <default key="_controller">kortwotze.feeds_plugin.controller.admin.dashboard_controller</default>
     </route>
 </routes>
