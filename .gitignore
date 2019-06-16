@@ -1,0 +1,24 @@
+/vendor/
+/node_modules/
+/composer.lock
+
+/etc/build/*
+!/etc/build/.gitignore
+
+/tests/Application/yarn.lock
+
+/behat.yml
+/phpspec.yml
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/web-server-bundle ###
+/.web-server-pid
+###< symfony/web-server-bundle ###

@@ -1,0 +1,7 @@
+kortwotze:
+  sylius_feeds_plugin:
+    general:
+      title: "Sylius Feeds | General Configuration"
+    menu:
+      section_title: "Feeds"
+      general_configuration: "General Configuration"

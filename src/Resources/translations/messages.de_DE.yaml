@@ -1,0 +1,7 @@
+kortwotze:
+  feeds_plugin:
+    general:
+      title: "Sylius Feeds | Allgemeine Einstellungen"
+    menu:
+      section_title: "Exporte"
+      general_configuration: "Allgemeine Einstellungen"
