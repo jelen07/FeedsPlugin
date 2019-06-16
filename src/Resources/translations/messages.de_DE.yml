@@ -1,6 +1,8 @@
 kortwotze:
   feeds_plugin:
     general:
-      title: "Exporte"
+      title: 'Exporte'
     menu:
-      title: "Exporte"
+      title: 'Exporte'
+    grid:
+      subheader: 'Alle Exporte'

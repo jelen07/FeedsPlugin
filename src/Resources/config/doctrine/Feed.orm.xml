@@ -1,0 +1,19 @@
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping"
+                  xmlns:gedmo="http://gediminasm.org/schemas/orm/doctrine-extensions-mapping">
+    <entity
+            name="Kortwotze\FeedsPlugin\Entity\Feed"
+            table="kortwotze_feeds_plugin_feed"
+    >
+        <id name="id" type="integer">
+            <generator strategy="AUTO"/>
+        </id>
+
+        <field name="createdAt" type="datetime" column="created">
+            <gedmo:timestampable on="create"/>
+        </field>
+        <field name="updatedAt" type="datetime" column="updated">
+            <gedmo:timestampable on="update"/>
+        </field>
+
+    </entity>
+</doctrine-mapping>

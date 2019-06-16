@@ -1,0 +1,6 @@
+sylius_resource:
+  resources:
+    kortwotze.feed:
+      classes:
+        model: 'Kortwotze\FeedsPlugin\Entity\Feed'
+        interfae: 'Kortwotze\FeedsPlugin\Entity\FeedInterface'

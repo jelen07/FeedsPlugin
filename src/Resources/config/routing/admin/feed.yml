@@ -1,0 +1,14 @@
+kortwotze_feeds_plugin_feed:
+  resource: |
+    alias: kortwotze.feed
+    section: admin
+    templates: SyliusAdminBundle:Crud
+    except: ['show']
+    redirect: update
+    grid: kortwotze_feeds_plugin_feed
+    vars:
+        all:
+            subheader: kortwotze.feeds_plugin.grid.subheader # define a translation key for your entity subheader
+        index:
+            icon: 'file image outline' # choose an icon that will be displayed next to the subheader
+  type: sylius.resource

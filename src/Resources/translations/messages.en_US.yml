@@ -1,6 +1,8 @@
 kortwotze:
   feeds_plugin:
     general:
-      title: "Feeds"
+      title: 'Feeds'
     menu:
-      title: "Feeds"
+      title: 'Feeds'
+    grid:
+      subheader: 'All feeds'

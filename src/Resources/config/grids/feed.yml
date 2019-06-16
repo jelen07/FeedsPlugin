@@ -1,0 +1,11 @@
+sylius_grid:
+  grids:
+    kortwotze_feeds_plugin_feed:
+      driver:
+        name: 'doctrine/orm'
+        options:
+          class: 'Kortwotze\FeedsPlugin\Entity\Feed'
+      fields:
+        id:
+          type: 'string'
+          label: 'sylius.ui.id'
