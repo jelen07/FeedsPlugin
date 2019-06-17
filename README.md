@@ -41,6 +41,8 @@ imports:
   ###> Feeds plugin
   - { resource: "@KortwotzeFeedsPlugin/Resources/config/config.xml" }
   - { resource: "@KortwotzeFeedsPlugin/Resources/config/services.xml" }
+  - { resource: "@KortwotzeFeedsPlugin/Resources/config/resources.yml" }
+  - { resource: "@KortwotzeFeedsPlugin/Resources/config/grids.yml" }
 ```
 
 6. Copy migrations from `tests/Applocation/migrations` to your application and run migrations.
